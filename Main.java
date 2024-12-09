@@ -54,10 +54,10 @@ public class Main {
 
     //Задание 2 №3
     public boolean is35 (int x) {
-        if (x%3==0) {
+        if (x%3==0 && x%5!=0) {
             return x%3==0;
         }
-        if (x%5==0) {
+        if (x%5==0 && x%3!=0) {
             return x%5==0;
         }
         else {
